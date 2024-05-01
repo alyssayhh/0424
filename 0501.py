@@ -1,13 +1,10 @@
 with open("C:/Users/a0979/OneDrive/文件/xi_wang_raw.txt", 'r', encoding="UTF-8") as f:
     rawdata = f.read()
-    print(rawdata)
     
     cleaned_data = rawdata.replace('\n', '').replace(' ', '').replace('\t', '')
     
-    print(cleaned_data)
     
     processed_data = cleaned_data.replace("more", "")
-    print(processed_data)
     
 import re
 
@@ -30,3 +27,10 @@ result_list = find_and_split(processed_data, "希望")
 # 输出结果
 for item in result_list:
     print(item)
+
+    # 要写入的内容
+content = item
+    
+    # 打开文件并写入内容
+with open("xi_wang_proccesed.txt", "w") as file:
+    file.write(content)    
