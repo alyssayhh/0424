@@ -27,10 +27,10 @@ result_list = find_and_split(processed_data, "希望")
 # 输出结果
 for item in result_list:
     print(item)
-
-    # 要写入的内容
-content = item
     
-    # 打开文件并写入内容
-with open("xi_wang_proccesed.txt", "w") as file:
-    file.write(content)    
+def write_list_to_txt(result_list, filename):
+    with open(filename, 'w') as file:
+        for item in result_list:
+            file.write("%s\n" % item)
+            
+write_list_to_txt(result_list, "xi_wang_proccesed.txt")
