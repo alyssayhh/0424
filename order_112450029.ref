@@ -1,0 +1,525 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "小熱美": {
+            "id": "83757a36-4854-4008-b500-49b1d7b2dbe8",
+            "argument": [
+                {
+                    "pos": "MODIFIER",
+                    "text": "小熱美",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "珍奶微微": {
+            "id": "8ad99079-fec3-4543-a9b8-cc491e268d57",
+            "argument": [
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "珍奶",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "微微",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "三杯小冰美": {
+            "id": "df35e632-327e-4948-98d5-18482237cd05",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "小",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "集點",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "冰美",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "五杯大冰拿": {
+            "id": "f96fbf1a-74ba-4deb-94dc-eb833299659e",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "五杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "大",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "拐李",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "捲門",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送辻",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "熱拿",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "新拿",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "冰拿",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "七杯全糖大冰拿": {
+            "id": "4a4e2c32-4a6d-4cfe-852f-cb6879fd24ff",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "七杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "全糖",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "大",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "拐李",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "捲門",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "送辻",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "熱拿",
+                            "level": "word2vec",
+                            "checked": true
+                        },
+                        {
+                            "text": "新拿",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "冰拿",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "三杯無糖小熱拿": {
+            "id": "01115e03-35f9-4e59-b2fc-1862933e0dc8",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "FUNC_negation",
+                    "text": "無",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "糖",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "小熱",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "捉拿",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "捕拿",
+                            "level": "tier_1",
+                            "checked": false
+                        },
+                        {
+                            "text": "懂得",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抓包",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "抓姦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "捉住",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "捉姦",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "捕捉",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "捕撈",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "捕獲",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "接住",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "看見",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "聽得懂",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "聽懂",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "追趕",
+                            "level": "tier_2",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿對",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "掏出",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿省",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿起",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搶過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "拿了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "撿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "想拿",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "搶",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "拿",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "二十五杯小熱美": {
+            "id": "21d7e02f-999b-4b52-9162-b269630286f6",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "二十五杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "小熱美",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "三十杯半糖小冰美": {
+            "id": "e9590662-a88e-45f6-8101-7dedb3d74d43",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "三十杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "半糖",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "小",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "集點",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "冰美",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "大冰奶和你一樣甜": {
+            "id": "3d397ed7-2cb2-490e-b678-7bf273045c32",
+            "argument": [
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "大冰奶",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "FUNC_conjunction",
+                    "text": "和",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_pronoun",
+                    "text": "你",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "DegreeP",
+                    "text": "一樣甜",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        },
+        "QQㄋㄟㄋㄟ好喝到咩噗茶": {
+            "id": "a517b024-3c30-4a7a-80b4-fa5756420498",
+            "argument": [
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "QQ",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "ㄋㄟㄋㄟ",
+                    "checked": true,
+                    "checkbox": true
+                },
+                {
+                    "pos": "MODIFIER",
+                    "text": "好喝",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "到了",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到約",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到受",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到離",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到包",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經過",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到回",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到隨",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到死",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到愛",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "到經",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "到",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "CLAUSE_particle",
+                    "text": "咩噗",
+                    "checked": false,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_oov",
+                    "text": "茶",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
