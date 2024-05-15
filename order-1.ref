@@ -1,0 +1,111 @@
+{
+    "language": "zh-tw",
+    "type": "basic",
+    "version": {
+        "atk": "v270",
+        "intent": "1.0"
+    },
+    "user_defined": {},
+    "utterance": {
+        "兩杯冰摩卡": {
+            "id": "f6b8e797-aff0-4dea-a4a4-cb6c5dc4f6ed",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "兩杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "冰摩",
+                    "checked": false,
+                    "checkbox": true
+                },
+                {
+                    "pos": "ACTION_verb",
+                    "lexy": [
+                        {
+                            "text": "誇利",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "卡有著",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "聖卡",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "有卡",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "誇萊",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "玩卡",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "飾卡",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "卡來",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "卡等",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "卡亦",
+                            "level": "word2vec",
+                            "checked": false
+                        },
+                        {
+                            "text": "卡有",
+                            "level": "word2vec",
+                            "checked": false
+                        }
+                    ],
+                    "text": "卡",
+                    "checked": false,
+                    "checkbox": false
+                }
+            ]
+        },
+        "六杯冰美式": {
+            "id": "0f78e750-9c9d-45e1-94d1-fd4f58c47fed",
+            "argument": [
+                {
+                    "pos": "ENTITY_classifier",
+                    "text": "六杯",
+                    "checked": true,
+                    "checkbox": false
+                },
+                {
+                    "pos": "ENTITY_nouny",
+                    "text": "冰美式",
+                    "checked": true,
+                    "checkbox": true
+                }
+            ]
+        }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
