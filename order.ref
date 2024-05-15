@@ -189,7 +189,7 @@
                 {
                     "pos": "ENTITY_nouny",
                     "text": "糖",
-                    "checked": true,
+                    "checked": false,
                     "checkbox": true
                 },
                 {
@@ -518,6 +518,11 @@
                 }
             ]
         }
+    },
+    "alias": {},
+    "prompt": {},
+    "document": []
+}
     },
     "alias": {},
     "prompt": {},
